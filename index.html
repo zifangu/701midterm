@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<!--df.to_html(), will be very helpful-->
+<html xmlns="http://www.w3.org/1999/html">
+   <script>
+      function myFunc() {
+         var num1 = document.getElementById("num1").value;
+         document.getElementById("output").innerHTML = num1;
+      }
+   </script>
+   <style>
+.table-nonfluid {
+   width: auto;
+}
+
+textarea {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20px;
+}
+</style>
+
+      <head>
+         <title>HTML Forms</title>
+      </head>
+
+
+      <p>Add your details:</p>
+    <input type = "text" id="num1">
+   <button onclick="myFunc()">try it</button>
+
+<p id="output"></p>
+<div><h3>Results:</h3></div>
+
+</html>
